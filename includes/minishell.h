@@ -6,7 +6,7 @@
 /*   By: rle <rle@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/30 18:06:18 by rle               #+#    #+#             */
-/*   Updated: 2017/12/06 14:02:38 by rle              ###   ########.fr       */
+/*   Updated: 2017/12/15 13:11:22 by rle              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,6 @@ void	echo_command(char *cmd);
 */
 void	display_prompt(void);
 void	clear_whitespaces(char **str);
-void    free_str_arr(char **str);
+void	free_str_arr(char **str);
 
 #endif
